@@ -190,13 +190,17 @@ body {
   }
 }
 
-/* @media only screen and (max-width: 50em) {
+@media only screen and (max-width: 68.75em) {
   html {
     font-size: 50%;
   }
 }
-@media only screen and (max-width: 30em) {
+@media only screen and (max-width: 55em) {
   html {
     font-size: 45%;
   }
-} */
+
+  .player__name {
+    font-size: 150%;
+  }
+}

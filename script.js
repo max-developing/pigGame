@@ -107,6 +107,10 @@ btnHold.addEventListener("click", function () {
       document.querySelector(`.player__name--${activePlayer}`).textContent =
         "WINNER !";
 
+      activePlayer === 0 ? (activePlayer = 1) : (activePlayer = 0);
+      document.querySelector(`.player__name--${activePlayer}`).textContent =
+        "🐷 🐖 🐽";
+
       dice.style.display = "none";
       dice2.style.display = "none";
 
