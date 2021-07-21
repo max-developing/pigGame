@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pig 🐷 Game</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,200;0,700;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <main class="pigApp">
+        <section class="player__section player__0 player--active">
+            <h3 class="player__name player__name--0">Player 1</h3>
+            <div class="score score__p0">19</div>
+
+            <div class="current__container">
+                <span class="current__text">Current</span>
+                <span class="current__score current__score__p0">12</span>
+            </div>
+        </section>
+
+        <section class="player__section player__1">
+            <h3 class="player__name player__name--1">Player 2</h3>
+            <div class="score score__p1">15</div>
+
+            <div class="current__container">
+                <span class="current__text">Current</span>
+                <span class="current__score current__score__p1">10</span>
+            </div>
+        </section>
+
+        <img src="diceImg/dice-2.png" alt="Playing dice" class="dice">
+        <img src="diceImg/dice-2.png" alt="Playing dice" class="dice2">
+        <button class="btn btn__newGame">🔁 New game</button>
+        <button class="btn btn__roll">🎲 Roll dice</button>
+        <button class="btn btn__hold">👌 Hold</button>
+        <input type="number" class="inputScore" placeholder="Score to win">
+    </main>
+</body>
+</html>
